@@ -30,8 +30,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Script ZIS HUX "})
+     local Tab1o = MakeTab({Name = "Script Redz"})
+     local Tab2o = MakeTab({Name = "Script ZIS fam "})
+     local Tab3o = MakeTab({Name = "Script Zis hop "})
+     local Tab4o = MakeTab({Name = "Script hid bux"})
+     local Tab5o = MakeTab({Name = "Script fam rương "})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -54,5 +57,37 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb8"))(Settings)
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Zis hop",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))(Settings)
+  end
+  })
+   AddButton(Tab4o, {
+     Name = "hid bux",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))(Settings)
+  end
+  })
+   AddButton(Tab5o, {
+     Name = "fam rương",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true"))(Settings)
   end
   })
